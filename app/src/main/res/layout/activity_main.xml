@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+
+    <com.borjabravo.readmoretextview.ReadMoreTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="GZeinNumer1 GZeinNumer2 GZeinNumer3 GZeinNumer4 GZeinNumer5 GZeinNumer6 GZeinNumer7 GZeinNumer8 GZeinNumer9"
+        app:colorClickableText="@color/colorPrimary"
+        app:trimCollapsedText="Show More"
+        app:trimExpandedText="Show Less"
+        app:trimLength="31"
+        app:trimMode="trimModeLength" />
+
+</LinearLayout>
